@@ -29,6 +29,10 @@
     @media (max-width: 500px) {
       margin-top: 40%;
     }
+    @media (max-width: 800px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
   &__image {
     max-width: 450px;
@@ -70,7 +74,8 @@
   @media (max-width: 800px) {
     padding: 20px;
     &__image {
-      display: none;
+      // display: none;
+      display: flex;
     }
     &__content {
       max-width: 90%;
