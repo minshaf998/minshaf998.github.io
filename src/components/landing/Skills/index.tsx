@@ -18,23 +18,24 @@ function Skills() {
         </div>
         <div className="skills__lists">
           <Skill
+            name="Back-end + DevOps"
+            detail="Node, Express, SQL, NoSQL, Docker, Firebase, GCP"
+            // Google Cloud, Kubernetes"
+            icon={nodeIcon}
+          />
+          <Skill
             name="Front-end"
             detail="React, React Native, Javascript, Typescript"
             // Redux, Context, Redux thunk, Vue, Vuex, Gatsby"
             icon={reactIcon}
           />
-          <Skill
-            name="Back-end + DevOps"
-            detail="Node, Express, SQL, NoSQL, Docker, MongoDB, Firebase, AWS"
-            // Google Cloud, Kubernetes"
-            icon={nodeIcon}
-          />
-          <Skill
+
+          {/* <Skill
             name="Style/Library"
             detail="CSS, SASS, Styled-components, Bootstrap"
             // LESS, Material UI, Vuetify, "
             icon={sassIcon}
-          />
+          /> */}
           {/* <Skill
 						name="UX/UI"
 						detail="Research, user journey, wireframe, prototype, interaction, test"
@@ -46,12 +47,12 @@ function Skills() {
             // "PHP,Socket.io, , WordPress"
             icon={pythonIcon}
           />
-          <Skill
+          {/* <Skill
             name="Tools"
             detail="Figma, Postman"
             // Draw.io, Adobe suite, Jira, Intercom, Lens"
             icon={figmaIcon}
-          />
+          /> */}
         </div>
       </div>
     </div>
