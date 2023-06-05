@@ -63,11 +63,11 @@ const Navbar = () => {
                   Projects
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a href="#recent-experience" rel="noopener noreferrer">
-                  Experiences
+                  Work Experiences
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a
                   href={process.env.PUBLIC_URL + "/images/inshafResume.pdf"}

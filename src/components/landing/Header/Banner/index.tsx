@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeroImage from "../../../../assets/images/hero-image.png";
+import HeroImage from "../../../../assets/images/inshafImage.jpg";
 import HeaderBg from "../../../../assets/images/header__bg.png";
 import Button from "../../../common/Button";
 
@@ -51,9 +51,9 @@ export const Banner = () => {
             <Button label="View projects" variant="outline" />
           </a>
         </div>
-        {/* <div className="banner__image">
+        <div className="banner__image">
           <img src={HeroImage} alt="Bikash Sharma smiling" />
-        </div> */}
+        </div>
       </div>
       <img
         src={HeaderBg}
